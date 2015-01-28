@@ -4,7 +4,7 @@ var express = require('express'),
 	favicon = require('serve-favicon'),
 	app     = express(),
 	path	= require('path'),
-	PORT    = 80;
+	PORT    = 8080;
 
 app.use(express.static(path.resolve(__dirname, '../client/dist')));
 app.use(favicon(path.resolve(__dirname, '../client/dist/assets/favicon.png')));

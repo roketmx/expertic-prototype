@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "ns" : "expertic-dev.sessions", "name" : "_id_" }, { "v" : 1, "key" : { "user" : 1 }, "ns" : "expertic-dev.sessions", "name" : "user_1", "background" : true, "safe" : null }, { "v" : 1, "key" : { "business" : 1 }, "ns" : "expertic-dev.sessions", "name" : "business_1", "background" : true, "safe" : null } ] }
