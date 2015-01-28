@@ -2,7 +2,7 @@ angular.module('services.resources', ['services.session'])
 
 .factory('resources', ['$http', 'session', function($http, $session) {
 	//var BASE = "http://104.236.72.69:3000"
-	var BASE = "http://localhost:3000";
+	var BASE = "http://107.170.25.197:3033";
 	var APIKEY = "bd90b560496a464c303794163b9cd60b1d301adf17179dd122f994cedeccbe484a0e049acf643c09f3f2f4fcedb04f9c8d3549f95374875e36f531b3874b04b5";
 	$http.defaults.headers.common.apikey = APIKEY;
 
