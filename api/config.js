@@ -40,7 +40,7 @@ else {
 			app: 'bd90b560496a464c303794163b9cd60b1d301adf17179dd122f994cedeccbe484a0e049acf643c09f3f2f4fcedb04f9c8d3549f95374875e36f531b3874b04b5'
 		},
 	  	server: {
-	    	port: 3000,
+	    	port: 3033,
 	    	host: "0.0.0.0",
 	    	distFolder: path.resolve(__dirname, '../app')
 	  	},
